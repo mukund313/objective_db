@@ -12,6 +12,7 @@
           "id": "sec1",
           "title": "Chapter 1: Introduction to Accounting",
           "questions": [
+            {"id": "q151", "question": "पुरस्कार कोष से सम्बन्धित आय एवं व्यय को दिखाया जाता है", "options": ["आय एवं व्यय खाते में", "चिट्ठे के सम्पत्ति पक्ष में", " चिट्ठे के दायित्व पक्ष में", "रोकड़ खाता में"], "correct_index": 0},
             {"id": "q1", "question": "What is the primary function of accounting?", "options": ["To record business transactions", "To eliminate business risks", "To set product prices", "To manage human resources"], "correct_index": 0},
             {"id": "q2", "question": "Which is NOT a business transaction?", "options": ["Paying rent", "Appointing a new manager", "Buying goods on credit", "Selling products for cash"], "correct_index": 1},
             {"id": "q3", "question": "The accounting equation is:", "options": ["Assets = Liabilities + Capital", "Liabilities = Assets + Capital", "Capital = Assets + Liabilities", "Assets = Liabilities - Capital"], "correct_index": 0},
