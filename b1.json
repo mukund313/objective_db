@@ -14,39 +14,105 @@
           "questions": [
             {
               "id": "q1",
-              "question": "What is 2+2?",
-              "options": ["1", "2", "3", "4"],
-              "correct_index": 3
+              "question": "What is the primary objective of accounting?",
+              "options": ["To record business transactions", "To eliminate all business costs", "To avoid paying taxes", "To manage employee behavior"],
+              "correct_index": 0
             },
             {
               "id": "q2",
-              "question": "Which is an asset?",
-              "options": ["Cash", "Debt", "Loss", "Expense"],
-              "correct_index": 0
+              "question": "Which of the following is not a business transaction?",
+              "options": ["Paying salary to employees", "Selling goods to a customer", "A change in management policy", "Buying a computer for office use"],
+              "correct_index": 2
             },
             {
               "id": "q3",
-              "question": "What is a liability?",
-              "options": ["Debt", "Cash", "Revenue", "Capital"],
+              "question": "The accounting equation is:",
+              "options": ["Assets = Liabilities + Capital", "Liabilities = Assets + Capital", "Capital = Assets - Liabilities", "Both A and C"],
+              "correct_index": 3
+            },
+            {
+              "id": "q4",
+              "question": "Which of these is an example of a liability?",
+              "options": ["Bank Loan", "Cash in Hand", "Land", "Inventory"],
               "correct_index": 0
+            },
+            {
+              "id": "q5",
+              "question": "Revenue is considered to be earned when:",
+              "options": ["Cash is received", "Goods are delivered or services are performed", "An order is placed", "An invoice is printed"],
+              "correct_index": 1
             }
           ]
         },
         {
           "id": "sec2",
-          "title": "Chapter 2: Accounting Principles",
+          "title": "Chapter 2: Theory Base of Accounting",
           "questions": [
             {
-              "id": "q4",
-              "question": "GAAP stands for?",
-              "options": ["General Accepted Accounting Principles", "Gross Accounting Approx Principles", "General Accounting Act Plan", "None"],
+              "id": "q6",
+              "question": "GAAP stands for:",
+              "options": ["Generally Accepted Accounting Principles", "General Accounting and Auditing Procedures", "Government Approved Accounting Policy", "Globally Accepted Accounting Process"],
               "correct_index": 0
             },
             {
-              "id": "q5",
-              "question": "Accrual accounting recognizes?",
-              "options": ["Expenses when paid", "Revenue when earned", "Revenue when received", "None"],
+              "id": "q7",
+              "question": "The concept that assumes a business will remain in operation for the foreseeable future is:",
+              "options": ["Going Concern Concept", "Money Measurement Concept", "Consistency Concept", "Dual Aspect Concept"],
+              "correct_index": 0
+            },
+            {
+              "id": "q8",
+              "question": "According to which concept, only financial transactions are recorded in the books of accounts?",
+              "options": ["Money Measurement Concept", "Business Entity Concept", "Cost Concept", "Realization Concept"],
+              "correct_index": 0
+            },
+            {
+              "id": "q9",
+              "question": "The principle of 'Revenue Recognition' dictates that revenue should be recognized:",
+              "options": ["When a sales contract is signed", "When production is complete", "When the sale is made/earned, regardless of cash receipt", "Only when cash is received"],
+              "correct_index": 2
+            },
+            {
+              "id": "q10",
+              "question": "Which convention suggests that accountants should choose a method that shows less profit and understates assets rather than overstating them?",
+              "options": ["Convention of Conservatism (Prudence)", "Convention of Consistency", "Convention of Full Disclosure", "Convention of Materiality"],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "id": "sec3",
+          "title": "Chapter 3: Recording of Transactions",
+          "questions": [
+            {
+              "id": "q11",
+              "question": "The book of original entry is called:",
+              "options": ["Journal", "Ledger", "Trial Balance", "Balance Sheet"],
+              "correct_index": 0
+            },
+            {
+              "id": "q12",
+              "question": "A credit note is issued for:",
+              "options": ["Sales returns", "Purchase returns", "Making a payment", "Receiving a payment"],
+              "correct_index": 0
+            },
+            {
+              "id": "q13",
+              "question": "The process of transferring journal entries to the ledger is called:",
+              "options": ["Posting", "Balancing", "Journalizing", "Summarizing"],
+              "correct_index": 0
+            },
+            {
+              "id": "q14",
+              "question": "Which of the following accounts has a credit balance?",
+              "options": ["Purchases Account", "Sales Account", "Cash Account", "Asset Account"],
               "correct_index": 1
+            },
+            {
+              "id": "q15",
+              "question": "A trial balance is prepared to:",
+              "options": ["Check the arithmetical accuracy of ledger accounts", "Determine the profit of the business", "Know the financial position of the business", "Create financial statements directly"],
+              "correct_index": 0
             }
           ]
         }
@@ -57,38 +123,110 @@
       "title": "Business Studies",
       "sections": [
         {
-          "id": "sec3",
-          "title": "Chapter 1: Business Environment",
+          "id": "sec4",
+          "title": "Chapter 1: Nature and Significance of Management",
           "questions": [
             {
-              "id": "q6",
-              "question": "Which is an example of micro environment?",
-              "options": ["Customers", "Government", "Culture", "Technology"],
+              "id": "q16",
+              "question": "Management is considered a 'Process' because:",
+              "options": ["It involves a series of interrelated functions", "It is very difficult to understand", "It requires a lot of paperwork", "It is only performed by top-level executives"],
               "correct_index": 0
             },
             {
-              "id": "q7",
-              "question": "What does SWOT stand for?",
-              "options": ["Strengths, Weaknesses, Opportunities, Threats", "Sales, Work, Operation, Timing", "Strategy, Wealth, Output, Target", "None"],
+              "id": "q17",
+              "question": "Which level of management is responsible for implementing plans and strategies of the organization?",
+              "options": ["Top Management", "Middle Management", "Supervisory Management", "All of the above"],
+              "correct_index": 1
+            },
+            {
+              "id": "q18",
+              "question": "Effectiveness in management is concerned with:",
+              "options": ["Doing the right task", "Completing activities at minimum cost", "Getting the most output from the least input", "Maximizing resource utilization"],
+              "correct_index": 0
+            },
+            {
+              "id": "q19",
+              "question": "Co-ordination is:",
+              "options": ["The essence of management", "A separate function of management", "Not related to management functions", "The responsibility of top management only"],
+              "correct_index": 0
+            },
+            {
+              "id": "q20",
+              "question": "Which function of management involves setting objectives and developing courses of action to achieve them?",
+              "options": ["Planning", "Organizing", "Staffing", "Controlling"],
               "correct_index": 0
             }
           ]
         },
         {
-          "id": "sec4",
-          "title": "Chapter 2: Business Organizations",
+          "id": "sec5",
+          "title": "Chapter 2: Principles of Management",
           "questions": [
             {
-              "id": "q8",
-              "question": "Private Limited company can have max number of members?",
-              "options": ["50", "100", "200", "500"],
+              "id": "q21",
+              "question": "Principles of management are not:",
+              "options": ["Universal", "Flexible", "Absolute", "Behavioral"],
               "correct_index": 2
             },
             {
-              "id": "q9",
-              "question": "Public Limited company shares can be traded?",
-              "options": ["Privately", "Publicly", "Both", "None"],
+              "id": "q22",
+              "question": "According to Fayol's principle of 'Division of Work', work should be divided:",
+              "options": ["Amongst individuals and groups", "Only amongst managers", "Only at the worker level", "Based on seniority"],
+              "correct_index": 0
+            },
+            {
+              "id": "q23",
+              "question": "The principle 'Esprit de Corps' emphasizes the importance of:",
+              "options": ["Team spirit and unity", "Centralization of power", "Strict discipline", "Individual effort over team effort"],
+              "correct_index": 0
+            },
+            {
+              "id": "q24",
+              "question": "Which principle suggests that an employee should receive orders from one superior only?",
+              "options": ["Unity of Command", "Unity of Direction", "Scalar Chain", "Discipline"],
+              "correct_index": 0
+            },
+            {
+              "id": "q25",
+              "question": "Scientific management was developed by:",
+              "options": ["Henri Fayol", "F.W. Taylor", "Peter Drucker", "Elton Mayo"],
               "correct_index": 1
+            }
+          ]
+        },
+        {
+          "id": "sec6",
+          "title": "Chapter 3: Business Environment",
+          "questions": [
+            {
+              "id": "q26",
+              "question": "Which of the following is an element of the micro-environment?",
+              "options": ["Suppliers", "Legal policies", "Social trends", "Global events"],
+              "correct_index": 0
+            },
+            {
+              "id": "q27",
+              "question": "A sudden announcement of a change in government policy is an example of:",
+              "options": ["Political environment", "Unexpected event", "Legal environment", "Technological environment"],
+              "correct_index": 1
+            },
+            {
+              "id": "q28",
+              "question": "What does SWOT stand for?",
+              "options": ["Strengths, Weaknesses, Opportunities, Threats", "Sales, Work, Operation, Timing", "Strategy, Wealth, Output, Target", "None of the above"],
+              "correct_index": 0
+            },
+            {
+              "id": "q29",
+              "question": "Liberalization means:",
+              "options": ["Reducing government controls and restrictions", "Increasing import duties", "Nationalizing private assets", "Increasing subsidies"],
+              "correct_index": 0
+            },
+            {
+              "id": "q30",
+              "question": "The process of integrating the national economy with the world economy is called:",
+              "options": ["Globalization", "Privatization", "Liberalization", "Industrialization"],
+              "correct_index": 0
             }
           ]
         }
@@ -99,38 +237,266 @@
       "title": "Economics",
       "sections": [
         {
-          "id": "sec5",
-          "title": "Chapter 1: Microeconomics",
+          "id": "sec7",
+          "title": "Chapter 1: Introduction to Microeconomics",
           "questions": [
             {
-              "id": "q10",
-              "question": "Law of Demand states?",
-              "options": ["Price ↑ Demand ↑", "Price ↑ Demand ↓", "Price ↓ Supply ↓", "None"],
+              "id": "q31",
+              "question": "Microeconomics deals with:",
+              "options": ["The economy as a whole", "Individual economic units like households and firms", "Issues like inflation and unemployment", "Government fiscal policy"],
               "correct_index": 1
             },
             {
-              "id": "q11",
-              "question": "Elasticity measures?",
-              "options": ["Response of Demand to Price", "Revenue", "Cost", "Production"],
+              "id": "q32",
+              "question": "The central problem of an economy is:",
+              "options": ["What to produce?", "How to produce?", "For whom to produce?", "All of the above"],
+              "correct_index": 3
+            },
+            {
+              "id": "q33",
+              "question": "An economy that combines elements of market and command economies is called a:",
+              "options": ["Mixed Economy", "Capitalist Economy", "Socialist Economy", "Traditional Economy"],
               "correct_index": 0
+            },
+            {
+              "id": "q34",
+              "question": "The concept of a Production Possibility Curve (PPC) is based on:",
+              "options": ["Full employment of resources", "Fixed technology", "Scarcity of resources", "All of the above"],
+              "correct_index": 3
+            },
+            {
+              "id": "q35",
+              "question": "A point inside the PPC indicates:",
+              "options": ["Efficient utilization of resources", "Inefficient utilization of resources", "Growth of resources", "Unattainable combination of goods"],
+              "correct_index": 1
             }
           ]
         },
         {
-          "id": "sec6",
-          "title": "Chapter 2: Macroeconomics",
+          "id": "sec8",
+          "title": "Chapter 2: Consumer Behavior and Demand",
           "questions": [
             {
-              "id": "q12",
-              "question": "GDP stands for?",
-              "options": ["Gross Domestic Product", "Global Development Plan", "General Domestic Price", "None"],
+              "id": "q36",
+              "question": "The law of demand states that, other things remaining constant:",
+              "options": ["Quantity demanded increases when price increases", "Quantity demanded decreases when price decreases", "Quantity demanded decreases when price increases", "Price and demand have no relation"],
+              "correct_index": 2
+            },
+            {
+              "id": "q37",
+              "question": "Which of the following is not a determinant of individual demand?",
+              "options": ["Price of the commodity", "Price of related goods", "Income of the consumer", "Number of producers in the market"],
+              "correct_index": 3
+            },
+            {
+              "id": "q38",
+              "question": "If the price of tea increases, the demand for coffee is likely to:",
+              "options": ["Decrease", "Increase", "Remain unchanged", "Become zero"],
+              "correct_index": 1
+            },
+            {
+              "id": "q39",
+              "question": "Elasticity of demand measures the:",
+              "options": ["Responsiveness of demand to changes in price", "Total expenditure of the consumer", "Slope of the demand curve", "Producer's total revenue"],
               "correct_index": 0
             },
             {
-              "id": "q13",
-              "question": "Inflation means?",
-              "options": ["Price level rises", "Price level falls", "Production rises", "Employment rises"],
+              "id": "q40",
+              "question": "For necessary goods, the income elasticity of demand is:",
+              "options": ["Zero", "Greater than one", "Less than one but greater than zero", "Negative"],
+              "correct_index": 2
+            }
+          ]
+        },
+        {
+          "id": "sec9",
+          "title": "Chapter 3: National Income and Related Aggregates",
+          "questions": [
+            {
+              "id": "q41",
+              "question": "GDP stands for:",
+              "options": ["Gross Domestic Product", "Gross Development Plan", "General Domestic Price", "Government Domestic Policy"],
               "correct_index": 0
+            },
+            {
+              "id": "q42",
+              "question": "GDPMP (GDP at Market Price) includes:",
+              "options": ["Subsidies", "Indirect Taxes", "Both subsidies and indirect taxes", "Neither subsidies nor indirect taxes"],
+              "correct_index": 2
+            },
+            {
+              "id": "q43",
+              "question": "Which of the following is a flow concept?",
+              "options": ["National Income", "Wealth", "Money supply", "Capital stock"],
+              "correct_index": 0
+            },
+            {
+              "id": "q44",
+              "question": "NDP is equal to:",
+              "options": ["GDP - Depreciation", "GNP - Depreciation", "GDP + Net Factor Income from Abroad", "GNP + Net Factor Income from Abroad"],
+              "correct_index": 0
+            },
+            {
+              "id": "q45",
+              "question": "The value of final goods and services is included in national income to avoid:",
+              "options": ["Double counting", "Inflation", "Deflation", "Taxation"],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub4",
+      "title": "Mathematics",
+      "sections": [
+        {
+          "id": "sec10",
+          "title": "Chapter 1: Relations and Functions",
+          "questions": [
+            {
+              "id": "q46",
+              "question": "A relation R from a set A to a set B is said to be a function if:",
+              "options": ["Every element of set A has a unique image in set B", "Every element of set B has a unique pre-image in set A", "No element of set A has more than one image in set B", "Both A and C"],
+              "correct_index": 3
+            },
+            {
+              "id": "q47",
+              "question": "The modulus function f(x) = |x| is defined as:",
+              "options": ["f(x) = x if x >= 0, and f(x) = -x if x < 0", "f(x) = x for all x", "f(x) = -x for all x", "f(x) = 0 if x=0, else f(x)=1"],
+              "correct_index": 0
+            },
+            {
+              "id": "q48",
+              "question": "If f(x) = x² and g(x) = 2x + 1, then (f ∘ g)(x) is:",
+              "options": ["(2x + 1)²", "x² + 2x + 1", "2x² + 1", "4x²"],
+              "correct_index": 0
+            },
+            {
+              "id": "q49",
+              "question": "A function f: R→R defined by f(x) = 2x + 3 is:",
+              "options": ["One-one and Onto", "One-one but not Onto", "Onto but not One-one", "Neither One-one nor Onto"],
+              "correct_index": 0
+            },
+            {
+              "id": "q50",
+              "question": "The number of binary operations on a set with 2 elements is:",
+              "options": ["4", "8", "16", "32"],
+              "correct_index": 2
+            }
+          ]
+        },
+        {
+          "id": "sec11",
+          "title": "Chapter 2: Calculus - Differentiation",
+          "questions": [
+            {
+              "id": "q51",
+              "question": "The derivative of a constant function is always:",
+              "options": ["0", "1", "The constant itself", "Undefined"],
+              "correct_index": 0
+            },
+            {
+              "id": "q52",
+              "question": "If y = xⁿ, then dy/dx is:",
+              "options": ["nx^(n-1)", "x^n", "nx", "(n-1)x^(n-1)"],
+              "correct_index": 0
+            },
+            {
+              "id": "q53",
+              "question": "The derivative of sin(x) with respect to x is:",
+              "options": ["cos(x)", "-cos(x)", "-sin(x)", "tan(x)"],
+              "correct_index": 0
+            },
+            {
+              "id": "q54",
+              "question": "The product rule for differentiation states: d(uv)/dx =",
+              "options": ["u dv/dx + v du/dx", "u du/dx + v dv/dx", "(du/dx)(dv/dx)", "u/v"],
+              "correct_index": 0
+            },
+            {
+              "id": "q55",
+              "question": "The second derivative of the function f(x) = x³ is:",
+              "options": ["6x", "3x²", "6x²", "x"],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub5",
+      "title": "English",
+      "sections": [
+        {
+          "id": "sec12",
+          "title": "Chapter 1: Reading Comprehension",
+          "questions": [
+            {
+              "id": "q56",
+              "question": "What is the primary purpose of a summary?",
+              "options": ["To state the main ideas of a text in a concise form", "To copy the text word-for-word", "To provide a personal critique of the text", "To list all the examples used in the text"],
+              "correct_index": 0
+            },
+            {
+              "id": "q57",
+              "question": "Inference in reading comprehension means:",
+              "options": ["Understanding the literal meaning of the words", "Drawing a conclusion based on evidence and reasoning", "Finding the definition of difficult words", "Identifying the main character"],
+              "correct_index": 1
+            },
+            {
+              "id": "q58",
+              "question": "The tone of a passage that expresses the author's sadness is:",
+              "options": ["Nostalgic", "Melancholic", "Sarcastic", "Objective"],
+              "correct_index": 1
+            },
+            {
+              "id": "q59",
+              "question": "What is the main idea of a passage?",
+              "options": ["The most important point the author makes", "The first sentence of the passage", "A detail that supports the argument", "The conclusion of the passage"],
+              "correct_index": 0
+            },
+            {
+              "id": "q60",
+              "question": "Scanning a text involves:",
+              "options": ["Reading quickly to get the general idea", "Reading slowly to understand complex ideas", "Looking for specific information or keywords", "Reading every word carefully for deep understanding"],
+              "correct_index": 2
+            }
+          ]
+        },
+        {
+          "id": "sec13",
+          "title": "Chapter 2: Note-Making and Summarizing",
+          "questions": [
+            {
+              "id": "q61",
+              "question": "The first step in note-making is usually:",
+              "options": ["Writing down everything you hear or read", "Identifying the main points and key details", "Using abbreviations and symbols", "Drawing diagrams"],
+              "correct_index": 1
+            },
+            {
+              "id": "q62",
+              "question": "Which of these is a standard convention for showing hierarchy in notes?",
+              "options": ["Indentation and numbering", "Using different colored pens", "Writing in all capital letters", "Underlining every point"],
+              "correct_index": 0
+            },
+            {
+              "id": "q63",
+              "question": "An effective summary should be:",
+              "options": ["Longer than the original text", "About one-third the length of the original text", "A collection of direct quotes from the text", "Focused on minor details"],
+              "correct_index": 1
+            },
+            {
+              "id": "q64",
+              "question": "Abbreviations in notes are used to:",
+              "options": ["Make the notes look professional", "Save time and space", "Confuse the reader", "Follow a mandatory rule"],
+              "correct_index": 1
+            },
+            {
+              "id": "q65",
+              "question": "The title of notes should be:",
+              "options": ["Vague and general", "Clear and indicative of the content", "Written in question form", "The longest part of the notes"],
+              "correct_index": 1
             }
           ]
         }
