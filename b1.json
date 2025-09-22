@@ -12,108 +12,93 @@
           "id": "sec1",
           "title": "Chapter 1: Introduction to Accounting",
           "questions": [
-            {
-              "id": "q1",
-              "question": "What is the primary objective of accounting?",
-              "options": ["To record business transactions", "To eliminate all business costs", "To avoid paying taxes", "To manage employee behavior"],
-              "correct_index": 0
-            },
-            {
-              "id": "q2",
-              "question": "Which of the following is not a business transaction?",
-              "options": ["Paying salary to employees", "Selling goods to a customer", "A change in management policy", "Buying a computer for office use"],
-              "correct_index": 2
-            },
-            {
-              "id": "q3",
-              "question": "The accounting equation is:",
-              "options": ["Assets = Liabilities + Capital", "Liabilities = Assets + Capital", "Capital = Assets - Liabilities", "Both A and C"],
-              "correct_index": 3
-            },
-            {
-              "id": "q4",
-              "question": "Which of these is an example of a liability?",
-              "options": ["Bank Loan", "Cash in Hand", "Land", "Inventory"],
-              "correct_index": 0
-            },
-            {
-              "id": "q5",
-              "question": "Revenue is considered to be earned when:",
-              "options": ["Cash is received", "Goods are delivered or services are performed", "An order is placed", "An invoice is printed"],
-              "correct_index": 1
-            }
+            {"id": "q1", "question": "What is the primary function of accounting?", "options": ["To record business transactions", "To eliminate business risks", "To set product prices", "To manage human resources"], "correct_index": 0},
+            {"id": "q2", "question": "Which is NOT a business transaction?", "options": ["Paying rent", "Appointing a new manager", "Buying goods on credit", "Selling products for cash"], "correct_index": 1},
+            {"id": "q3", "question": "The accounting equation is:", "options": ["Assets = Liabilities + Capital", "Liabilities = Assets + Capital", "Capital = Assets + Liabilities", "Assets = Liabilities - Capital"], "correct_index": 0},
+            {"id": "q4", "question": "Capital is considered a:", "options": ["Liability to the business", "Asset for the business", "Expense for the business", "Internal liability"], "correct_index": 3},
+            {"id": "q5", "question": "An example of a liability is:", "options": ["Cash at Bank", "Machinery", "Bank Overdraft", "Debtors"], "correct_index": 2},
+            {"id": "q6", "question": "Revenue is 'earned' when:", "options": ["An order is placed", "Goods are delivered", "An invoice is sent", "Cash is received"], "correct_index": 1},
+            {"id": "q7", "question": "An expense is recognized when:", "options": ["It is paid in cash", "It is incurred", "The year ends", "Manager approves it"], "correct_index": 1},
+            {"id": "q8", "question": "Which is a current asset?", "options": ["Land", "Building", "Inventory", "Patent"], "correct_index": 2},
+            {"id": "q9", "question": "Goods purchased for resale are:", "options": ["Stock", "Fixed Assets", "Investments", "Current Liabilities"], "correct_index": 0},
+            {"id": "q10", "question": "'Creditors' refers to:", "options": ["People who owe the business", "People the business owes", "Owners", "Employees"], "correct_index": 1},
+            {"id": "q11", "question": "Shows financial position:", "options": ["Income Statement", "Balance Sheet", "Cash Flow Statement", "Trial Balance"], "correct_index": 1},
+            {"id": "q12", "question": "Recording transactions is called:", "options": ["Posting", "Journalizing", "Balancing", "Summarizing"], "correct_index": 1},
+            {"id": "q13", "question": "Bookkeeping involves:", "options": ["Interpreting data", "Recording data", "Making decisions", "Auditing records"], "correct_index": 1},
+            {"id": "q14", "question": "Interested in profitability:", "options": ["Management", "Investors", "Creditors", "Government"], "correct_index": 1},
+            {"id": "q15", "question": "Purpose of financial accounting:", "options": ["Help management", "Info for external users", "Calculate bonuses", "File tax returns"], "correct_index": 1},
+            {"id": "q16", "question": "Owner invests cash:", "options": ["Assets↑ Liabilities↑", "Assets↑ Capital↑", "Assets↓ Capital↓", "No change"], "correct_index": 1},
+            {"id": "q17", "question": "Buy computer on credit:", "options": ["Assets↑ Liabilities↑", "Assets↑ Capital↑", "Assets↓ Liabilities↓", "Asset↑ Asset↓"], "correct_index": 0},
+            {"id": "q18", "question": "Non-current liability:", "options": ["Bank Overdraft", "Outstanding Expenses", "Long-term Loan", "Creditors"], "correct_index": 2},
+            {"id": "q19", "question": "'Debtors' are:", "options": ["Borrowed from business", "Sold to business", "Owe money for credit sales", "None"], "correct_index": 2},
+            {"id": "q20", "question": "NOT a sub-field:", "options": ["Financial Accounting", "Cost Accounting", "Management Accounting", "HR Accounting"], "correct_index": 3},
+            {"id": "q21", "question": "Business continues future:", "options": ["Going Concern", "Consistency", "Accrual", "Money Measurement"], "correct_index": 0},
+            {"id": "q22", "question": "Business Entity Concept:", "options": ["Separate from owners", "Same as owners", "Part of society", "Government entity"], "correct_index": 0},
+            {"id": "q23", "question": "Primary qualitative characteristic:", "options": ["Timeliness", "Understandability", "Relevance & Faithful Rep.", "Comparability"], "correct_index": 2},
+            {"id": "q24", "question": "Voucher is a:", "options": ["Book of accounts", "Document", "Type of journal", "Financial statement"], "correct_index": 1},
+            {"id": "q25", "question": "First accounting step:", "options": ["Prepare statements", "Post to ledger", "Record in journal", "Identify transaction"], "correct_index": 3}
           ]
         },
         {
           "id": "sec2",
           "title": "Chapter 2: Theory Base of Accounting",
           "questions": [
-            {
-              "id": "q6",
-              "question": "GAAP stands for:",
-              "options": ["Generally Accepted Accounting Principles", "General Accounting and Auditing Procedures", "Government Approved Accounting Policy", "Globally Accepted Accounting Process"],
-              "correct_index": 0
-            },
-            {
-              "id": "q7",
-              "question": "The concept that assumes a business will remain in operation for the foreseeable future is:",
-              "options": ["Going Concern Concept", "Money Measurement Concept", "Consistency Concept", "Dual Aspect Concept"],
-              "correct_index": 0
-            },
-            {
-              "id": "q8",
-              "question": "According to which concept, only financial transactions are recorded in the books of accounts?",
-              "options": ["Money Measurement Concept", "Business Entity Concept", "Cost Concept", "Realization Concept"],
-              "correct_index": 0
-            },
-            {
-              "id": "q9",
-              "question": "The principle of 'Revenue Recognition' dictates that revenue should be recognized:",
-              "options": ["When a sales contract is signed", "When production is complete", "When the sale is made/earned, regardless of cash receipt", "Only when cash is received"],
-              "correct_index": 2
-            },
-            {
-              "id": "q10",
-              "question": "Which convention suggests that accountants should choose a method that shows less profit and understates assets rather than overstating them?",
-              "options": ["Convention of Conservatism (Prudence)", "Convention of Consistency", "Convention of Full Disclosure", "Convention of Materiality"],
-              "correct_index": 0
-            }
+            {"id": "q26", "question": "GAAP stands for:", "options": ["Generally Accepted Accounting Principles", "General Accounting and Auditing Procedures", "Government Approved Accounting Policy", "Globally Accepted Accounting Process"], "correct_index": 0},
+            {"id": "q27", "question": "Assumes business continues:", "options": ["Going Concern Concept", "Money Measurement Concept", "Consistency Concept", "Dual Aspect Concept"], "correct_index": 0},
+            {"id": "q28", "question": "Only financial transactions recorded:", "options": ["Money Measurement", "Business Entity", "Cost Concept", "Realization Concept"], "correct_index": 0},
+            {"id": "q29", "question": "Revenue recognized when:", "options": ["Contract signed", "Production complete", "Sale is earned", "Cash received"], "correct_index": 2},
+            {"id": "q30", "question": "Choose method showing less profit:", "options": ["Conservatism", "Consistency", "Full Disclosure", "Materiality"], "correct_index": 0},
+            {"id": "q31", "question": "Same method year-to-year:", "options": ["Consistency Concept", "Conservatism Convention", "Accrual Concept", "Matching Concept"], "correct_index": 0},
+            {"id": "q32", "question": "Assets recorded at purchase price:", "options": ["Cost Concept", "Realization Concept", "Matching Concept", "Dual Aspect Concept"], "correct_index": 0},
+            {"id": "q33", "question": "Revenue matched with expenses:", "options": ["Matching Concept", "Accrual Concept", "Periodicity Concept", "Going Concern Concept"], "correct_index": 0},
+            {"id": "q34", "question": "Life of business split into periods:", "options": ["Periodicity Concept", "Going Concern Concept", "Business Entity Concept", "Money Measurement Concept"], "correct_index": 0},
+            {"id": "q35", "question": "Every transaction has two aspects:", "options": ["Dual Aspect Concept", "Money Measurement Concept", "Cost Concept", "Realization Concept"], "correct_index": 0},
+            {"id": "q36", "question": "Insignificant items can be ignored:", "options": ["Materiality Convention", "Full Disclosure Convention", "Consistency Convention", "Conservatism Convention"], "correct_index": 0},
+            {"id": "q37", "question": "All significant info must be disclosed:", "options": ["Full Disclosure Convention", "Materiality Convention", "Conservatism Convention", "Consistency Convention"], "correct_index": 0},
+            {"id": "q38", "question": "IFRS stands for:", "options": ["International Financial Reporting Standards", "Indian Financial Reporting System", "International Fiscal Reporting Standards", "Indian Fiscal Revenue Service"], "correct_index": 0},
+            {"id": "q39", "question": "Focuses on substance over legal form:", "options": ["True and Fair View", "Materiality", "Conservatism", "Consistency"], "correct_index": 0},
+            {"id": "q40", "question": "Accounting standards are issued by:", "options": ["SEBI", "RBI", "ASB (Accounting Standards Board)", "Ministry of Finance"], "correct_index": 2},
+            {"id": "q41", "question": "The 'Accounting Cycle' does NOT include:", "options": ["Identification", "Recording", "Auditing", "Classification"], "correct_index": 2},
+            {"id": "q42", "question": "Capital expenditure is for:", "options": ["Day-to-day operations", "Acquiring fixed assets", "Paying salaries", "Selling expenses"], "correct_index": 1},
+            {"id": "q43", "question": "Revenue expenditure is for:", "options": ["Buying machinery", "Maintaining fixed assets", "Building construction", "Starting a new business"], "correct_index": 1},
+            {"id": "q44", "question": "Deferred revenue expenditure is:", "options": ["Expensed immediately", "Capitalized for many years", "Benefits multiple periods", "Never recorded"], "correct_index": 2},
+            {"id": "q45", "question": "The basic accounting assumptions are:", "options": ["Going Concern, Consistency, Accrual", "Money Measurement, Conservatism, Materiality", "Business Entity, Dual Aspect, Cost", "Realization, Matching, Periodicity"], "correct_index": 0},
+            {"id": "q46", "question": "The 'Realization Concept' deals with:", "options": ["Recording expenses", "Recognizing revenue", "Valuing assets", "Calculating profit"], "correct_index": 1},
+            {"id": "q47", "question": "The 'Business Entity Concept' separates:", "options": ["Business from competitors", "Business from its owners", "Assets from liabilities", "Revenue from expenses"], "correct_index": 1},
+            {"id": "q48", "question": "Violation of Consistency Concept leads to:", "options": "["Lack of Comparability", "Lower Profits", "Higher Taxes", "More Assets"]", "correct_index": 0},
+            {"id": "q49", "question": "The 'Accrual Concept' emphasizes:", "options": ["Cash transactions only", "Transactions when cash is paid/received", "Transactions when they occur", "Ignoring non-cash items"], "correct_index": 2},
+            {"id": "q50", "question": "The 'Matching Concept' is based on:", "options": ["Going Concern", "Periodicity", "Accrual", "All of the above"], "correct_index": 3}
           ]
         },
         {
           "id": "sec3",
           "title": "Chapter 3: Recording of Transactions",
           "questions": [
-            {
-              "id": "q11",
-              "question": "The book of original entry is called:",
-              "options": ["Journal", "Ledger", "Trial Balance", "Balance Sheet"],
-              "correct_index": 0
-            },
-            {
-              "id": "q12",
-              "question": "A credit note is issued for:",
-              "options": ["Sales returns", "Purchase returns", "Making a payment", "Receiving a payment"],
-              "correct_index": 0
-            },
-            {
-              "id": "q13",
-              "question": "The process of transferring journal entries to the ledger is called:",
-              "options": ["Posting", "Balancing", "Journalizing", "Summarizing"],
-              "correct_index": 0
-            },
-            {
-              "id": "q14",
-              "question": "Which of the following accounts has a credit balance?",
-              "options": ["Purchases Account", "Sales Account", "Cash Account", "Asset Account"],
-              "correct_index": 1
-            },
-            {
-              "id": "q15",
-              "question": "A trial balance is prepared to:",
-              "options": ["Check the arithmetical accuracy of ledger accounts", "Determine the profit of the business", "Know the financial position of the business", "Create financial statements directly"],
-              "correct_index": 0
-            }
+            {"id": "q51", "question": "Book of original entry:", "options": ["Journal", "Ledger", "Trial Balance", "Balance Sheet"], "correct_index": 0},
+            {"id": "q52", "question": "Credit note is issued for:", "options": ["Sales returns", "Purchase returns", "Making payment", "Receiving payment"], "correct_index": 0},
+            {"id": "q53", "question": "Transferring to ledger:", "options": ["Posting", "Balancing", "Journalizing", "Summarizing"], "correct_index": 0},
+            {"id": "q54", "question": "Credit balance account:", "options": ["Purchases", "Sales", "Cash", "Asset"], "correct_index": 1},
+            {"id": "q55", "question": "Trial balance checks:", "options": ["Arithmetical accuracy", "Profit", "Financial position", "Creates statements"], "correct_index": 0},
+            {"id": "q56", "question": "Narration in journal specifies:", "options": ["The amount", "The date", "The purpose of entry", "The account to be debited"], "correct_index": 2},
+            {"id": "q57", "question": "Compound journal entry has:", "options": ["One debit, one credit", "Multiple debits, one credit", "One debit, multiple credits", "All of the above"], "correct_index": 3},
+            {"id": "q58", "question": "Discount allowed is:", "options": ["Expense", "Income", "Asset", "Liability"], "correct_index": 0},
+            {"id": "q59", "question": "Discount received is:", "options": ["Expense", "Income", "Asset", "Liability"], "correct_index": 1},
+            {"id": "q60", "question": "Goods given as charity are:", "options": ["Credited to Sales A/c", "Debited to Charity A/c", "Debited to Purchases A/c", "Both B and C"], "correct_index": 3},
+            {"id": "q61", "question": "Cash book records:", "options": ["Only cash receipts", "Only cash payments", "All cash & bank transactions", "Only credit transactions"], "correct_index": 2},
+            {"id": "q62", "question": "A contra entry affects:", "options": ["Cash and Bank accounts", "Only asset accounts", "Only liability accounts", "Real and Nominal accounts"], "correct_index": 0},
+            {"id": "q63", "question": "Capital introduced in cash:", "options": ["Debit Capital, Credit Cash", "Debit Cash, Credit Capital", "Debit Bank, Credit Capital", "No entry needed"], "correct_index": 1},
+            {"id": "q64", "question": "Sold goods for cash:", "options": ["Debit Debtor, Credit Sales", "Debit Cash, Credit Sales", "Debit Sales, Credit Cash", "Debit Cash, Credit Purchases"], "correct_index": 1},
+            {"id": "q65", "question": "Bought furniture on credit:", "options": ["Debit Furniture, Credit Cash", "Debit Furniture, Credit Creditor", "Debit Creditor, Credit Furniture", "Debit Cash, Credit Furniture"], "correct_index": 1},
+            {"id": "q66", "question": "Paid rent by cheque:", "options": ["Debit Rent, Credit Bank", "Debit Bank, Credit Rent", "Debit Rent, Credit Cash", "Debit Cash, Credit Rent"], "correct_index": 0},
+            {"id": "q67", "question": "Personal drawings in cash:", "options": ["Debit Drawings, Credit Cash", "Debit Cash, Credit Drawings", "Debit Capital, Credit Cash", "Debit Cash, Credit Capital"], "correct_index": 0},
+            {"id": "q68", "question": "The rule for nominal accounts:", "options": ["Debit what comes in, Credit what goes out", "Debit the receiver, Credit the giver", "Debit all expenses/losses, Credit all incomes/gains", "Debit the giver, Credit the receiver"], "correct_index": 2},
+            {"id": "q69", "question": "The rule for real accounts:", "options": ["Debit what comes in, Credit what goes out", "Debit the receiver, Credit the giver", "Debit all expenses/losses, Credit all incomes/gains", "Debit the giver, Credit the receiver"], "correct_index": 0},
+            {"id": "q70", "question": "The rule for personal accounts:", "options": ["Debit what comes in, Credit what goes out", "Debit the receiver, Credit the giver", "Debit all expenses/losses, Credit all incomes/gains", "Debit the giver, Credit the receiver"], "correct_index": 1},
+            {"id": "q71", "question": "A trial balance can have:", "options": ["Only debit balances", "Only credit balances", "Both debit and credit balances", "No balances, only totals"], "correct_index": 2},
+            {"id": "q72", "question": "Error of principle occurs when:", "options": ["A transaction is not recorded", "Wrong amount is recorded", "Accounting principle is violated", "Posting is done to wrong side"], "correct_index": 2},
+            {"id": "q73", "question": "Error of commission is:", "options": ["Omission of entry", "Wrong allocation of amount", "Posting to correct account but wrong side", "Recording with wrong amount"], "correct_index": 1},
+            {"id": "q74", "question": "Suspense account is used to:", "options": ["Record unusual transactions", "Temporarily balance the trial balance", "Record profit for the year", "Record losses"], "correct_index": 1},
+            {"id": "q75", "question": "Bank reconciliation reconciles:", "options": ["Cash book with passbook", "Journal with ledger", "Trial balance with balance sheet", "Income statement with cash flow"], "correct_index": 0}
           ]
         }
       ]
@@ -126,108 +111,93 @@
           "id": "sec4",
           "title": "Chapter 1: Nature and Significance of Management",
           "questions": [
-            {
-              "id": "q16",
-              "question": "Management is considered a 'Process' because:",
-              "options": ["It involves a series of interrelated functions", "It is very difficult to understand", "It requires a lot of paperwork", "It is only performed by top-level executives"],
-              "correct_index": 0
-            },
-            {
-              "id": "q17",
-              "question": "Which level of management is responsible for implementing plans and strategies of the organization?",
-              "options": ["Top Management", "Middle Management", "Supervisory Management", "All of the above"],
-              "correct_index": 1
-            },
-            {
-              "id": "q18",
-              "question": "Effectiveness in management is concerned with:",
-              "options": ["Doing the right task", "Completing activities at minimum cost", "Getting the most output from the least input", "Maximizing resource utilization"],
-              "correct_index": 0
-            },
-            {
-              "id": "q19",
-              "question": "Co-ordination is:",
-              "options": ["The essence of management", "A separate function of management", "Not related to management functions", "The responsibility of top management only"],
-              "correct_index": 0
-            },
-            {
-              "id": "q20",
-              "question": "Which function of management involves setting objectives and developing courses of action to achieve them?",
-              "options": ["Planning", "Organizing", "Staffing", "Controlling"],
-              "correct_index": 0
-            }
+            {"id": "q76", "question": "Management is a 'Process' because:", "options": ["It involves interrelated functions", "It is difficult", "It requires paperwork", "Only for top executives"], "correct_index": 0},
+            {"id": "q77", "question": "Implements plans & strategies:", "options": ["Top Management", "Middle Management", "Supervisory Management", "All"], "correct_index": 1},
+            {"id": "q78", "question": "Effectiveness is:", "options": ["Doing the right task", "Minimizing cost", "Max output, min input", "Max resource use"], "correct_index": 0},
+            {"id": "q79", "question": "Co-ordination is:", "options": ["The essence of management", "A separate function", "Not related", "Only top management's job"], "correct_index": 0},
+            {"id": "q80", "question": "Setting objectives is:", "options": ["Planning", "Organizing", "Staffing", "Controlling"], "correct_index": 0},
+            {"id": "q81", "question": "Management is goal-oriented for:", "options": ["Organizational goals only", "Personal goals only", "Both organizational and social goals", "Neither"], "correct_index": 2},
+            {"id": "q82", "question": "Which is not a function of management?", "options": ["Planning", "Cooperating", "Staffing", "Controlling"], "correct_index": 1},
+            {"id": "q83", "question": "Efficiency is concerned with:", "options": ["Completing tasks", "Cost minimization", "Doing tasks correctly", "Both B and C"], "correct_index": 3},
+            {"id": "q84", "question": "Management is a:", "options": ["Pure science", "Social science", "Perfect science", "Rigid science"], "correct_index": 1},
+            {"id": "q85", "question": "Top management focuses on:", "options": ["Supervising workers", "Implementing policies", "Formulating policies", "Overseeing daily operations"], "correct_index": 2},
+            {"id": "q86", "question": "Supervisory management is also called:", "options": ["Operational management", "Strategic management", "Tactical management", "Financial management"], "correct_index": 0},
+            {"id": "q87", "question": "Management helps in:", "options": ["Achieving group goals", "Increasing efficiency", "Creating dynamic organization", "All of the above"], "correct_index": 3},
+            {"id": "q88", "question": "The element that aims to harmonize goals is:", "options": ["Co-ordination", "Planning", "Organizing", "Directing"], "correct_index": 0},
+            {"id": "q89", "question": "Management is multi-dimensional. It does NOT include:", "options": ["Management of Work", "Management of People", "Management of Operations", "Management of Personal Finances"], "correct_index": 3},
+            {"id": "q90", "question": "Who said 'Management is the art of getting things done through people'?", "options": ["Henry Fayol", "F.W. Taylor", "Mary Parker Follett", "Peter Drucker"], "correct_index": 2},
+            {"id": "q91", "question": "Which function bridges the gap between planning and actual performance?", "options": ["Organizing", "Staffing", "Directing", "Controlling"], "correct_index": 3},
+            {"id": "q92", "question": "Staffing involves:", "options": ["Setting goals", "Manpower planning", "Assigning duties", "Measuring performance"], "correct_index": 1},
+            {"id": "q93", "question": "Directing includes:", "options": ["Supervision", "Motivation", "Leadership", "All of the above"], "correct_index": 3},
+            {"id": "q94", "question": "Organizing leads to:", "options": ["Setting objectives", "Creating structure", "Measuring performance", "Influencing people"], "correct_index": 1},
+            {"id": "q95", "question": "Management is important for:", "options": ["Business only", "Non-business organizations only", "Both business and non-business", "Neither"], "correct_index": 2},
+            {"id": "q96", "question": "The resource called 'Managerial Talent' is:", "options": ["Abundant", "Inefficient", "Limited", "Not required"], "correct_index": 2},
+            {"id": "q97", "question": "Co-ordination is the responsibility of:", "options": ["Top management only", "Every manager", "Only HR department", "External consultants"], "correct_index": 1},
+            {"id": "q98", "question": "Management as a profession requires:", "options": ["Body of knowledge", "Ethical code", "Professional association", "All of the above"], "correct_index": 3},
+            {"id": "q99", "question": "Management is not a full profession because:", "options": ["No restricted entry", "No formal code of conduct", "No uniform qualifications", "All of the above"], "correct_index": 3},
+            {"id": "q100", "question": "The main objective of any organization should be:", "options": ["Profit maximization", "Survival", "Service to society", "Multiple objectives"], "correct_index": 3}
           ]
         },
         {
           "id": "sec5",
           "title": "Chapter 2: Principles of Management",
           "questions": [
-            {
-              "id": "q21",
-              "question": "Principles of management are not:",
-              "options": ["Universal", "Flexible", "Absolute", "Behavioral"],
-              "correct_index": 2
-            },
-            {
-              "id": "q22",
-              "question": "According to Fayol's principle of 'Division of Work', work should be divided:",
-              "options": ["Amongst individuals and groups", "Only amongst managers", "Only at the worker level", "Based on seniority"],
-              "correct_index": 0
-            },
-            {
-              "id": "q23",
-              "question": "The principle 'Esprit de Corps' emphasizes the importance of:",
-              "options": ["Team spirit and unity", "Centralization of power", "Strict discipline", "Individual effort over team effort"],
-              "correct_index": 0
-            },
-            {
-              "id": "q24",
-              "question": "Which principle suggests that an employee should receive orders from one superior only?",
-              "options": ["Unity of Command", "Unity of Direction", "Scalar Chain", "Discipline"],
-              "correct_index": 0
-            },
-            {
-              "id": "q25",
-              "question": "Scientific management was developed by:",
-              "options": ["Henri Fayol", "F.W. Taylor", "Peter Drucker", "Elton Mayo"],
-              "correct_index": 1
-            }
+            {"id": "q101", "question": "Principles of management are not:", "options": ["Universal", "Flexible", "Absolute", "Behavioral"], "correct_index": 2},
+            {"id": "q102", "question": "'Division of Work' means work is divided:", "options": ["Among individuals & groups", "Only amongst managers", "Only at worker level", "By seniority"], "correct_index": 0},
+            {"id": "q103", "question": "'Esprit de Corps' emphasizes:", "options": ["Team spirit", "Centralization", "Strict discipline", "Individual effort"], "correct_index": 0},
+            {"id": "q104", "question": "Orders from one superior only:", "options": ["Unity of Command", "Unity of Direction", "Scalar Chain", "Discipline"], "correct_index": 0},
+            {"id": "q105", "question": "Scientific management by:", "options": ["Henri Fayol", "F.W. Taylor", "Peter Drucker", "Elton Mayo"], "correct_index": 1},
+            {"id": "q106", "question": "Fayol's principle 'Initiative' means:", "options": ["Starting a business", "Employees should be encouraged to take initiative", "Only managers take initiative", "Initiative leads to punishment"], "correct_index": 1},
+            {"id": "q107", "question": "'Scalar Chain' refers to:", "options": ["The chain of command", "The payment structure", "The supply chain", "The production line"], "correct_index": 0},
+            {"id": "q108", "question": "'Subordination of Individual Interest to General Interest' means:", "options": ["Organization's goals are supreme", "Individual goals are supreme", "Both are equally important", "Neither is important"], "correct_index": 0},
+            {"id": "q109", "question": "Taylor's 'Science, Not Rule of Thumb' means:", "options": ["Use scientific methods", "Follow traditional methods", "Managers' intuition is best", "No methods are needed"], "correct_index": 0},
+            {"id": "q110", "question": "Taylor's 'Functional Foremanship' has how many foremen?", "options": ["2", "4", "6", "8"], "correct_index": 3},
+            {"id": "q111", "question": "'Differential Piece Wage System' was given by:", "options": ["Fayol", "Taylor", "Mayo", "Maslow"], "correct_index": 1},
+            {"id": "q112", "question": "Which principle suggests concentration of decision-making authority?", "options": ["Centralization and Decentralization", "Order", "Stability of Tenure", "Equity"], "correct_index": 0},
+            {"id": "q113", "question": "'Gang Plank' is related to:", "options": ["Scalar Chain", "Division of Work", "Initiative", "Remuneration"], "correct_index": 0},
+            {"id": "q114", "question": "The principle 'Equity' emphasizes:", "options": ["Fairness and justice", "Equal pay for all", "Same treatment for all", "No discrimination"], "correct_index": 0},
+            {"id": "q115", "question": "Motion study involves studying:", "options": ["Market movements", "Movements of workers and machines", "Political motions", "Financial trends"], "correct_index": 1},
+            {"id": "q116", "question": "Time study determines:", "options": ["Standard time for a task", "Time to start business", "Time for lunch break", "Time to quit job"], "correct_index": 0},
+            {"id": "q117", "question": "Fatigue study finds ways to:", "options": ["Make workers tired", "Reduce worker fatigue", "Ignore fatigue", "Punish tired workers"], "correct_index": 1},
+            {"id": "q118", "question": "Method study aims to:", "options": ["Find the best method", "Copy old methods", "Use any method", "Avoid methods"], "correct_index": 0},
+            {"id": "q119", "question": "Fayol's principles are:", "options": ["Universal", "Applicable only to large orgs", "Applicable only to small orgs", "Not applicable today"], "correct_index": 0},
+            {"id": "q120", "question": "Taylor is associated with:", "options": ["Administrative management", "Scientific management", "Human relations", "Bureaucracy"], "correct_index": 1},
+            {"id": "q121", "question": "Fayol is associated with:", "options": ["Administrative management", "Scientific management", "Human relations", "Bureaucracy"], "correct_index": 0},
+            {"id": "q122", "question": "The principle 'Order' means:", "options": ["Giving orders", "A place for everything and everything in its place", "Maintaining discipline", "Following sequence"], "correct_index": 1},
+            {"id": "q123", "question": "'Stability of Tenure' reduces:", "options": ["Employee turnover", "Productivity", "Efficiency", "Costs"], "correct_index": 0},
+            {"id": "q124", "question": "'Remuneration' should be:", "options": ["Fair and equitable", "Very high", "Very low", "Paid late"], "correct_index": 0},
+            {"id": "q125", "question": "The principle 'Discipline' requires:", "options": ["Good superiors at all levels", "Only obedient workers", "Strict rules only", "No rules"], "correct_index": 0}
           ]
         },
         {
           "id": "sec6",
           "title": "Chapter 3: Business Environment",
           "questions": [
-            {
-              "id": "q26",
-              "question": "Which of the following is an element of the micro-environment?",
-              "options": ["Suppliers", "Legal policies", "Social trends", "Global events"],
-              "correct_index": 0
-            },
-            {
-              "id": "q27",
-              "question": "A sudden announcement of a change in government policy is an example of:",
-              "options": ["Political environment", "Unexpected event", "Legal environment", "Technological environment"],
-              "correct_index": 1
-            },
-            {
-              "id": "q28",
-              "question": "What does SWOT stand for?",
-              "options": ["Strengths, Weaknesses, Opportunities, Threats", "Sales, Work, Operation, Timing", "Strategy, Wealth, Output, Target", "None of the above"],
-              "correct_index": 0
-            },
-            {
-              "id": "q29",
-              "question": "Liberalization means:",
-              "options": ["Reducing government controls and restrictions", "Increasing import duties", "Nationalizing private assets", "Increasing subsidies"],
-              "correct_index": 0
-            },
-            {
-              "id": "q30",
-              "question": "The process of integrating the national economy with the world economy is called:",
-              "options": ["Globalization", "Privatization", "Liberalization", "Industrialization"],
-              "correct_index": 0
-            }
+            {"id": "q126", "question": "Element of micro-environment:", "options": ["Suppliers", "Legal policies", "Social trends", "Global events"], "correct_index": 0},
+            {"id": "q127", "question": "Sudden govt policy change is:", "options": ["Political environment", "Unexpected event", "Legal environment", "Technological environment"], "correct_index": 1},
+            {"id": "q128", "question": "SWOT stands for:", "options": ["Strengths, Weaknesses, Opportunities, Threats", "Sales, Work, Operation, Timing", "Strategy, Wealth, Output, Target", "None"], "correct_index": 0},
+            {"id": "q129", "question": "Liberalization means:", "options": ["Reducing govt controls", "Increasing import duties", "Nationalizing assets", "Increasing subsidies"], "correct_index": 0},
+            {"id": "q130", "question": "Integrating with world economy:", "options": ["Globalization", "Privatization", "Liberalization", "Industrialization"], "correct_index": 0},
+            {"id": "q131", "question": "Selling public sector to private:", "options": ["Globalization", "Privatization", "Liberalization", "Industrialization"], "correct_index": 1},
+            {"id": "q132", "question": "Micro environment includes:", "options": ["Competitors", "Economic conditions", "Technology", "Political system"], "correct_index": 0},
+            {"id": "q133", "question": "Macro environment includes:", "options": ["Customers", "Suppliers", "Social environment", "Intermediaries"], "correct_index": 2},
+            {"id": "q134", "question": "Demographic environment includes:", "options": ["Population size", "Income distribution", "Laws", "Technology"], "correct_index": 0},
+            {"id": "q135", "question": "A high interest rate is part of:", "options": ["Economic environment", "Social environment", "Political environment", "Technological environment"], "correct_index": 0},
+            {"id": "q136", "question": "Consumer Protection Act is part of:", "options": ["Legal environment", "Political environment", "Economic environment", "Social environment"], "correct_index": 0},
+            {"id": "q137", "question": "The 'P' in PESTLE analysis stands for:", "options": ["Political", "Personal", "Product", "Production"], "correct_index": 0},
+            {"id": "q138", "question": "The 'E' in PESTLE for Economic stands for:", "options": ["Economic", "Environmental", "Educational", "Ethical"], "correct_index": 0},
+            {"id": "q139", "question": "A strength of a business could be:", "options": ["Loyal customer base", "New competitor", "Changing tastes", "High taxes"], "correct_index": 0},
+            {"id": "q140", "question": "A threat could be:", "options": ["Skilled workforce", "Strong brand image", "New market entry", "Economic recession"], "correct_index": 3},
+            {"id": "q141", "question": "An opportunity could be:", "options": ["Outdated technology", "Growing demand", "Price wars", "Strict regulations"], "correct_index": 1},
+            {"id": "q142", "question": "A weakness could be:", "options": ["High debt", "Favourable laws", "Market growth", "Low inflation"], "correct_index": 0},
+            {"id": "q143", "question": "Business environment is:", "options": ["Static", "Dynamic", "Predictable", "Controllable"], "correct_index": 1},
+            {"id": "q144", "question": "Environment scanning helps in:", "options": ["Identifying opportunities & threats", "Increasing costs", "Ignoring competition", "Reducing profits"], "correct_index": 0},
+            {"id": "q145", "question": "Globalization increases:", "options": ["Competition", "Isolation", "Domestic trade only", "Government control"], "correct_index": 0},
+            {"id": "q146", "question": "Privatization aims to improve:", "options": ["Efficiency and profitability", "Government revenue only", "Employee count", "Social welfare only"], "correct_index": 0},
+            {"id": "q147", "question": "The process of NEP (New Economic Policy) started in India in:", "options": ["1947", "1980", "1991", "2000"], "correct_index": 2},
+            {"id": "q148", "question": "MRTP Act was concerned with:", "options": ["Monopolies", "Taxation", "Imports", "Exports"], "correct_index": 0},
+            {"id": "q149", "question": "FEMA deals with:", "options": ["Foreign exchange", "Environmental management", "Consumer rights", "Employee rights"], "correct_index": 0},
+            {"id": "q150", "question": "The main regulator of the money market in India is:", "options": ["SEBI", "RBI", "MRTP", "FICCI"], "correct_index": 1}
           ]
         }
       ]
@@ -240,267 +210,208 @@
           "id": "sec7",
           "title": "Chapter 1: Introduction to Microeconomics",
           "questions": [
-            {
-              "id": "q31",
-              "question": "Microeconomics deals with:",
-              "options": ["The economy as a whole", "Individual economic units like households and firms", "Issues like inflation and unemployment", "Government fiscal policy"],
-              "correct_index": 1
-            },
-            {
-              "id": "q32",
-              "question": "The central problem of an economy is:",
-              "options": ["What to produce?", "How to produce?", "For whom to produce?", "All of the above"],
-              "correct_index": 3
-            },
-            {
-              "id": "q33",
-              "question": "An economy that combines elements of market and command economies is called a:",
-              "options": ["Mixed Economy", "Capitalist Economy", "Socialist Economy", "Traditional Economy"],
-              "correct_index": 0
-            },
-            {
-              "id": "q34",
-              "question": "The concept of a Production Possibility Curve (PPC) is based on:",
-              "options": ["Full employment of resources", "Fixed technology", "Scarcity of resources", "All of the above"],
-              "correct_index": 3
-            },
-            {
-              "id": "q35",
-              "question": "A point inside the PPC indicates:",
-              "options": ["Efficient utilization of resources", "Inefficient utilization of resources", "Growth of resources", "Unattainable combination of goods"],
-              "correct_index": 1
-            }
-          ]
-        },
-        {
-          "id": "sec8",
-          "title": "Chapter 2: Consumer Behavior and Demand",
-          "questions": [
-            {
-              "id": "q36",
-              "question": "The law of demand states that, other things remaining constant:",
-              "options": ["Quantity demanded increases when price increases", "Quantity demanded decreases when price decreases", "Quantity demanded decreases when price increases", "Price and demand have no relation"],
-              "correct_index": 2
-            },
-            {
-              "id": "q37",
-              "question": "Which of the following is not a determinant of individual demand?",
-              "options": ["Price of the commodity", "Price of related goods", "Income of the consumer", "Number of producers in the market"],
-              "correct_index": 3
-            },
-            {
-              "id": "q38",
-              "question": "If the price of tea increases, the demand for coffee is likely to:",
-              "options": ["Decrease", "Increase", "Remain unchanged", "Become zero"],
-              "correct_index": 1
-            },
-            {
-              "id": "q39",
-              "question": "Elasticity of demand measures the:",
-              "options": ["Responsiveness of demand to changes in price", "Total expenditure of the consumer", "Slope of the demand curve", "Producer's total revenue"],
-              "correct_index": 0
-            },
-            {
-              "id": "q40",
-              "question": "For necessary goods, the income elasticity of demand is:",
-              "options": ["Zero", "Greater than one", "Less than one but greater than zero", "Negative"],
-              "correct_index": 2
-            }
-          ]
-        },
-        {
-          "id": "sec9",
-          "title": "Chapter 3: National Income and Related Aggregates",
-          "questions": [
-            {
-              "id": "q41",
-              "question": "GDP stands for:",
-              "options": ["Gross Domestic Product", "Gross Development Plan", "General Domestic Price", "Government Domestic Policy"],
-              "correct_index": 0
-            },
-            {
-              "id": "q42",
-              "question": "GDPMP (GDP at Market Price) includes:",
-              "options": ["Subsidies", "Indirect Taxes", "Both subsidies and indirect taxes", "Neither subsidies nor indirect taxes"],
-              "correct_index": 2
-            },
-            {
-              "id": "q43",
-              "question": "Which of the following is a flow concept?",
-              "options": ["National Income", "Wealth", "Money supply", "Capital stock"],
-              "correct_index": 0
-            },
-            {
-              "id": "q44",
-              "question": "NDP is equal to:",
-              "options": ["GDP - Depreciation", "GNP - Depreciation", "GDP + Net Factor Income from Abroad", "GNP + Net Factor Income from Abroad"],
-              "correct_index": 0
-            },
-            {
-              "id": "q45",
-              "question": "The value of final goods and services is included in national income to avoid:",
-              "options": ["Double counting", "Inflation", "Deflation", "Taxation"],
-              "correct_index": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sub4",
-      "title": "Mathematics",
-      "sections": [
-        {
-          "id": "sec10",
-          "title": "Chapter 1: Relations and Functions",
-          "questions": [
-            {
-              "id": "q46",
-              "question": "A relation R from a set A to a set B is said to be a function if:",
-              "options": ["Every element of set A has a unique image in set B", "Every element of set B has a unique pre-image in set A", "No element of set A has more than one image in set B", "Both A and C"],
-              "correct_index": 3
-            },
-            {
-              "id": "q47",
-              "question": "The modulus function f(x) = |x| is defined as:",
-              "options": ["f(x) = x if x >= 0, and f(x) = -x if x < 0", "f(x) = x for all x", "f(x) = -x for all x", "f(x) = 0 if x=0, else f(x)=1"],
-              "correct_index": 0
-            },
-            {
-              "id": "q48",
-              "question": "If f(x) = x² and g(x) = 2x + 1, then (f ∘ g)(x) is:",
-              "options": ["(2x + 1)²", "x² + 2x + 1", "2x² + 1", "4x²"],
-              "correct_index": 0
-            },
-            {
-              "id": "q49",
-              "question": "A function f: R→R defined by f(x) = 2x + 3 is:",
-              "options": ["One-one and Onto", "One-one but not Onto", "Onto but not One-one", "Neither One-one nor Onto"],
-              "correct_index": 0
-            },
-            {
-              "id": "q50",
-              "question": "The number of binary operations on a set with 2 elements is:",
-              "options": ["4", "8", "16", "32"],
-              "correct_index": 2
-            }
-          ]
-        },
-        {
-          "id": "sec11",
-          "title": "Chapter 2: Calculus - Differentiation",
-          "questions": [
-            {
-              "id": "q51",
-              "question": "The derivative of a constant function is always:",
-              "options": ["0", "1", "The constant itself", "Undefined"],
-              "correct_index": 0
-            },
-            {
-              "id": "q52",
-              "question": "If y = xⁿ, then dy/dx is:",
-              "options": ["nx^(n-1)", "x^n", "nx", "(n-1)x^(n-1)"],
-              "correct_index": 0
-            },
-            {
-              "id": "q53",
-              "question": "The derivative of sin(x) with respect to x is:",
-              "options": ["cos(x)", "-cos(x)", "-sin(x)", "tan(x)"],
-              "correct_index": 0
-            },
-            {
-              "id": "q54",
-              "question": "The product rule for differentiation states: d(uv)/dx =",
-              "options": ["u dv/dx + v du/dx", "u du/dx + v dv/dx", "(du/dx)(dv/dx)", "u/v"],
-              "correct_index": 0
-            },
-            {
-              "id": "q55",
-              "question": "The second derivative of the function f(x) = x³ is:",
-              "options": ["6x", "3x²", "6x²", "x"],
-              "correct_index": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sub5",
-      "title": "English",
-      "sections": [
-        {
-          "id": "sec12",
-          "title": "Chapter 1: Reading Comprehension",
-          "questions": [
-            {
-              "id": "q56",
-              "question": "What is the primary purpose of a summary?",
-              "options": ["To state the main ideas of a text in a concise form", "To copy the text word-for-word", "To provide a personal critique of the text", "To list all the examples used in the text"],
-              "correct_index": 0
-            },
-            {
-              "id": "q57",
-              "question": "Inference in reading comprehension means:",
-              "options": ["Understanding the literal meaning of the words", "Drawing a conclusion based on evidence and reasoning", "Finding the definition of difficult words", "Identifying the main character"],
-              "correct_index": 1
-            },
-            {
-              "id": "q58",
-              "question": "The tone of a passage that expresses the author's sadness is:",
-              "options": ["Nostalgic", "Melancholic", "Sarcastic", "Objective"],
-              "correct_index": 1
-            },
-            {
-              "id": "q59",
-              "question": "What is the main idea of a passage?",
-              "options": ["The most important point the author makes", "The first sentence of the passage", "A detail that supports the argument", "The conclusion of the passage"],
-              "correct_index": 0
-            },
-            {
-              "id": "q60",
-              "question": "Scanning a text involves:",
-              "options": ["Reading quickly to get the general idea", "Reading slowly to understand complex ideas", "Looking for specific information or keywords", "Reading every word carefully for deep understanding"],
-              "correct_index": 2
-            }
-          ]
-        },
-        {
-          "id": "sec13",
-          "title": "Chapter 2: Note-Making and Summarizing",
-          "questions": [
-            {
-              "id": "q61",
-              "question": "The first step in note-making is usually:",
-              "options": ["Writing down everything you hear or read", "Identifying the main points and key details", "Using abbreviations and symbols", "Drawing diagrams"],
-              "correct_index": 1
-            },
-            {
-              "id": "q62",
-              "question": "Which of these is a standard convention for showing hierarchy in notes?",
-              "options": ["Indentation and numbering", "Using different colored pens", "Writing in all capital letters", "Underlining every point"],
-              "correct_index": 0
-            },
-            {
-              "id": "q63",
-              "question": "An effective summary should be:",
-              "options": ["Longer than the original text", "About one-third the length of the original text", "A collection of direct quotes from the text", "Focused on minor details"],
-              "correct_index": 1
-            },
-            {
-              "id": "q64",
-              "question": "Abbreviations in notes are used to:",
-              "options": ["Make the notes look professional", "Save time and space", "Confuse the reader", "Follow a mandatory rule"],
-              "correct_index": 1
-            },
-            {
-              "id": "q65",
-              "question": "The title of notes should be:",
-              "options": ["Vague and general", "Clear and indicative of the content", "Written in question form", "The longest part of the notes"],
-              "correct_index": 1
-            }
-          ]
-        }
-      ]
-    }
-  ]
+            {"id": "q151", "question": "Microeconomics deals with:", "options": ["The whole economy", "Individual economic units", "Inflation, unemployment", "Govt fiscal policy"], "correct_index": 1},
+            {"id": "q152", "question": "Central problem of an economy:", "options": ["What to produce?", "How to produce?", "For whom to produce?", "All of the above"], "correct_index": 3},
+            {"id": "q153", "question": "Market + Command economy:", "options": ["Mixed Economy", "Capitalist Economy", "Socialist Economy", "Traditional Economy"], "correct_index": 0},
+            {"id": "q154", "question": "PPC is based on:", "options": ["Full employment", "Fixed technology", "Scarcity", "All of the above"], "correct_index": 3},
+            {"id": "q155", "question": "Point inside PPC indicates:", "options": ["Efficient use", "Inefficient use", "Growth", "Unattainable"], "correct_index": 1},
+            {"id": "q156", "question": "Outward shift of PPC shows:", "options": ["Economic growth", "Economic decline", "Unemployment", "Inflation"], "correct_index": 0},
+            {"id": "q157", "question": "Scarcity of resources means:", "options": ["Resources are unlimited", "Resources are limited", "Resources are free", "Resources are wasted"], "correct_index": 1},
+{
+  "id": "q158",
+  "question": "Opportunity cost is:",
+  "options": [
+    "The cost of the next best alternative foregone",
+    "The money cost",
+    "The total cost",
+    "The sunk cost"
+  ],
+  "correct_index": 0
+},
+{
+  "id": "q159",
+  "question": "Law of Demand states:",
+  "options": [
+    "Demand rises as price rises",
+    "Demand falls as price rises",
+    "Demand is constant",
+    "Demand depends only on income"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q160",
+  "question": "Elastic demand means:",
+  "options": [
+    "Quantity demanded changes greatly with price",
+    "Quantity demanded does not change with price",
+    "Demand depends on supply",
+    "Demand is irrelevant"
+  ],
+  "correct_index": 0
+},
+{
+  "id": "q161",
+  "question": "Supply refers to:",
+  "options": [
+    "Amount of goods consumers want",
+    "Amount of goods producers offer for sale",
+    "Total population demand",
+    "Government stock of goods"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q162",
+  "question": "Market equilibrium occurs when:",
+  "options": [
+    "Demand exceeds supply",
+    "Supply exceeds demand",
+    "Quantity demanded equals quantity supplied",
+    "Government intervenes"
+  ],
+  "correct_index": 2
+},
+{
+  "id": "q163",
+  "question": "Price ceiling leads to:",
+  "options": [
+    "Surplus",
+    "Shortage",
+    "Equilibrium",
+    "No change"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q164",
+  "question": "Price floor is set to:",
+  "options": [
+    "Lower market price",
+    "Raise market price",
+    "Match equilibrium price",
+    "Control inflation only"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q165",
+  "question": "Factor market deals with:",
+  "options": [
+    "Goods and services",
+    "Factors of production",
+    "Foreign trade",
+    "Government spending"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q166",
+  "question": "Normal goods are:",
+  "options": [
+    "Demand falls as income rises",
+    "Demand rises as income rises",
+    "Income has no effect",
+    "Only luxury goods"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q167",
+  "question": "Inferior goods are:",
+  "options": [
+    "Demand falls as income rises",
+    "Demand rises as income rises",
+    "Always necessities",
+    "Only luxury goods"
+  ],
+  "correct_index": 0
+},
+{
+  "id": "q168",
+  "question": "Consumer surplus is:",
+  "options": [
+    "Difference between what consumers pay and are willing to pay",
+    "Profit of producers",
+    "Government revenue",
+    "Total market demand"
+  ],
+  "correct_index": 0
+},
+{
+  "id": "q169",
+  "question": "Producer surplus is:",
+  "options": [
+    "Difference between market price and minimum price producers accept",
+    "Profit of consumers",
+    "Total government revenue",
+    "Market equilibrium"
+  ],
+  "correct_index": 0
+},
+{
+  "id": "q170",
+  "question": "Monopoly market has:",
+  "options": [
+    "Many sellers",
+    "One seller",
+    "Few sellers",
+    "Government control"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q171",
+  "question": "Perfect competition features:",
+  "options": [
+    "Single seller",
+    "Many sellers, homogeneous product",
+    "Few sellers, differentiated product",
+    "Government monopoly"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q172",
+  "question": "Oligopoly is:",
+  "options": [
+    "Market with one seller",
+    "Market with few large sellers",
+    "Market with many sellers",
+    "Government-owned market"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q173",
+  "question": "Price determination in perfect competition is:",
+  "options": [
+    "Firm decides price",
+    "Market forces of demand and supply",
+    "Government decides price",
+    "Depends on advertising"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q174",
+  "question": "Law of Diminishing Marginal Utility states:",
+  "options": [
+    "Utility increases indefinitely",
+    "Marginal utility decreases as consumption increases",
+    "Total utility decreases always",
+    "Utility has no relation to consumption"
+  ],
+  "correct_index": 1
+},
+{
+  "id": "q175",
+  "question": "Income elasticity of demand measures:",
+  "options": [
+    "Change in demand due to price change",
+    "Change in demand due to income change",
+    "Change in supply due to price",
+    "Change in total revenue"
+  ],
+  "correct_index": 1
 }
